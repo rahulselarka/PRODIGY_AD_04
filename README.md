@@ -1,79 +1,62 @@
-This is a new [**React Native**](https://reactnative.dev) project, bootstrapped using [`@react-native-community/cli`](https://github.com/react-native-community/cli).
+# React Native Stopwatch App
 
-# Getting Started
+The React Native Stopwatch App is a mobile application developed using React Native, utilizing JavaScript, React Hooks, and StyleSheet for precise time tracking with start, pause, and reset functionality.
 
->**Note**: Make sure you have completed the [React Native - Environment Setup](https://reactnative.dev/docs/environment-setup) instructions till "Creating a new application" step, before proceeding.
+## Technologies Used
 
-## Step 1: Start the Metro Server
+- **React Native**: Framework for building cross-platform mobile applications using JavaScript and React.
+- **JavaScript**: Programming language used for building the logic and functionality of the app.
+- **React Hooks**: Used for state management and side effects within functional components.
+- **StyleSheet**: Utilized for styling components and defining layouts.
 
-First, you will need to start **Metro**, the JavaScript _bundler_ that ships _with_ React Native.
+## Features
 
-To start Metro, run the following command from the _root_ of your React Native project:
+- **Stopwatch Functionality**: Provides start, pause, and reset functionality for precise time tracking.
+- **Simple User Interface**: Offers an intuitive and user-friendly interface for easy interaction.
+- **Accurate Time Measurement**: Ensures accurate time measurement for various timing needs.
 
-```bash
-# using npm
-npm start
+## Installation
 
-# OR using Yarn
-yarn start
-```
+To set up the React Native Stopwatch App:
 
-## Step 2: Start your Application
+1. Clone the repository:
 
-Let Metro Bundler run in its _own_ terminal. Open a _new_ terminal from the _root_ of your React Native project. Run the following command to start your _Android_ or _iOS_ app:
+   ```
+   git clone https://github.com/your-username/react-native-stopwatch-app.git
+   ```
 
-### For Android
+2. Navigate to the project directory.
 
-```bash
-# using npm
-npm run android
+3. Run the following command to install dependencies:
 
-# OR using Yarn
-yarn android
-```
+   ```
+   npm install
+   ```
 
-### For iOS
+4. Build and run the application on your preferred device/emulator using:
 
-```bash
-# using npm
-npm run ios
+   ```
+   npx react-native run-android
+   ```
 
-# OR using Yarn
-yarn ios
-```
+   or
 
-If everything is set up _correctly_, you should see your new app running in your _Android Emulator_ or _iOS Simulator_ shortly provided you have set up your emulator/simulator correctly.
+   ```
+   npx react-native run-ios
+   ```
 
-This is one way to run your app — you can also run it directly from within Android Studio and Xcode respectively.
+## Usage
 
-## Step 3: Modifying your App
+Using the React Native Stopwatch App:
 
-Now that you have successfully run the app, let's modify it.
+1. Launch the app on your mobile device or emulator.
 
-1. Open `App.tsx` in your text editor of choice and edit some lines.
-2. For **Android**: Press the <kbd>R</kbd> key twice or select **"Reload"** from the **Developer Menu** (<kbd>Ctrl</kbd> + <kbd>M</kbd> (on Window and Linux) or <kbd>Cmd ⌘</kbd> + <kbd>M</kbd> (on macOS)) to see your changes!
+2. Press the "Start" button to begin the stopwatch.
 
-   For **iOS**: Hit <kbd>Cmd ⌘</kbd> + <kbd>R</kbd> in your iOS Simulator to reload the app and see your changes!
+3. Press the "Pause" button to pause the stopwatch at any time.
 
-## Congratulations! :tada:
+4. Press the "Reset" button to reset the stopwatch to zero.
 
-You've successfully run and modified your React Native App. :partying_face:
+5. Track time accurately for various purposes such as sports, workouts, or time management.
 
-### Now what?
-
-- If you want to add this new React Native code to an existing application, check out the [Integration guide](https://reactnative.dev/docs/integration-with-existing-apps).
-- If you're curious to learn more about React Native, check out the [Introduction to React Native](https://reactnative.dev/docs/getting-started).
-
-# Troubleshooting
-
-If you can't get this to work, see the [Troubleshooting](https://reactnative.dev/docs/troubleshooting) page.
-
-# Learn More
-
-To learn more about React Native, take a look at the following resources:
-
-- [React Native Website](https://reactnative.dev) - learn more about React Native.
-- [Getting Started](https://reactnative.dev/docs/environment-setup) - an **overview** of React Native and how setup your environment.
-- [Learn the Basics](https://reactnative.dev/docs/getting-started) - a **guided tour** of the React Native **basics**.
-- [Blog](https://reactnative.dev/blog) - read the latest official React Native **Blog** posts.
-- [`@facebook/react-native`](https://github.com/facebook/react-native) - the Open Source; GitHub **repository** for React Native.
+![image](https://github.com/rahulselarka/PRODIGY_AD_04/assets/156499662/6b835e4e-e63e-446e-b472-29da62bc97b8)
